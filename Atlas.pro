@@ -11,12 +11,14 @@ CONFIG += c++11
 SOURCES += \
     beginwidget.cpp \
     gameform.cpp \
+    loginform.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     beginwidget.h \
     gameform.h \
+    loginform.h \
     mainwindow.h
 
 # Default rules for deployment.
@@ -25,4 +27,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 FORMS += \
-    gameform.ui
+    gameform.ui \
+    loginform.ui
