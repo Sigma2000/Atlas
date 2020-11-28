@@ -29,3 +29,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 FORMS += \
     gameform.ui \
     loginform.ui
+
+RESOURCES += \
+    resource.qrc

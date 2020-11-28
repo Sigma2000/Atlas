@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/gif">
+        <file>gif/gearHead.gif</file>
+        <file>gif/wait.gif</file>
+    </qresource>
+</RCC>
